@@ -6,17 +6,17 @@ This README will lay out the steps to create a Selenium project in IntelliJ and 
 ----
 ## How to setup an automation project in GitHub
 
-##### Pre-requisites:
+#### Pre-requisites:
 > Computer must be set up to work in IntelliJ
 
 > Computer must be set up to work in GitHub
 
-##### Steps:
+#### Steps:
 1. Create package in IntelliJ
 2. Create project in GitHub
 3. Transfer working IntelliJ package into GitHub
 
-##### Command Line Commands:
+#### Command Line Commands:
 * git checkout master - *changes branch to master*
 * git checkout homework/erica - *changes branch to homework/erica*
 * git pull - *pulls from current branch*
