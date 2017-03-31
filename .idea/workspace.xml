@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c11681d2-69dc-4db3-a7d5-171d3863188c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Automation/Automation.iml" afterPath="$PROJECT_DIR$/Automation.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Automation/Screenshots/facebook.png" afterPath="$PROJECT_DIR$/Screenshots/facebook.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Automation/chromedriver" afterPath="$PROJECT_DIR$/chromedriver" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Automation/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="c11681d2-69dc-4db3-a7d5-171d3863188c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
