@@ -61,7 +61,7 @@ public class fbTest {
 
         //Screenshot
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File("/Users/erica.hagle/Automation/Screenshots/facebook.png"));
+        FileUtils.copyFile(scrFile, new File("/Users/erica.hagle/automation-homework/Screenshots"));
     }
 
     @AfterTest
