@@ -1,28 +1,25 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-import java.io.File;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-import java.util.HashMap;
-import java.util.Map;
-import org.openqa.selenium.chrome.ChromeOptions;
+
+        import org.openqa.selenium.By;
+        import org.openqa.selenium.WebDriver;
+        import org.openqa.selenium.WebElement;
+        import org.apache.commons.io.FileUtils;
+        import org.openqa.selenium.OutputType;
+        import org.openqa.selenium.TakesScreenshot;
+        import org.openqa.selenium.remote.DesiredCapabilities;
+        import org.openqa.selenium.remote.RemoteWebDriver;
+        import org.openqa.selenium.support.ui.WebDriverWait;
+        import org.testng.Assert;
+        import org.testng.annotations.*;
+        import java.io.File;
+        import java.io.IOException;
+        import java.util.concurrent.TimeUnit;
 
 /**
- * Created by erica.hagle on 3/31/17.
+ * Created by erica.hagle on 8/1/17.
  */
 
 /**
- * This Homework is mainly to implement Selenium webdriver concepts Navigate, Manipulate, Interogate and sync
+ * This Homework is mainly to implement Selenium webdriver concepts Navigate, Manipulate, Interogate and sync in BrowserStack
  */
 
 // 1. Navigate to FB page
@@ -30,36 +27,24 @@ import org.openqa.selenium.chrome.ChromeOptions;
 // 3. Manipulate - enter some test data within login and password fields
 // 4. Sync add some wait time for loading
 
-public class fbTest {
-    static String driverPath = "/Users/erica.hagle/automation-homework/chromedriver";
-    public static WebDriver driver;
-    final static String url = "https://www.facebook.com";
+public class fbTestBrowserStack {
+    public static final String USERNAME = "eehakqa@gmail.com";
+    public static final String ACCESS_KEY = "Sv0ozekh#bzA";
+    public static final String URL = "http://" + "username" + ":" + "API KEY" + "@hub.browserstack.com/wd/hub";
 
+    private WebDriver driver;
 
-    @BeforeTest
-    public static void setupTest() {
-        System.out.println("******************");
-        System.out.println("Launching Chrome browser");
-        System.setProperty("webdriver.chrome.driver", driverPath);
+    @BeforeClass
+    public void setUp() throws Exception {
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setCapability("browser" , "Firefox");
+        caps.setCapability("browser_version" , "23.0");
+        caps.setCapability("os" , "Windows");
+        caps.setCapability("os_version" , "XP");
+        caps.setCapability("browserstack.debug" , "true");
+        //This enables Visual Logs
+        driver = new RemoteWebDriver(new URL(URL), caps);
 
-        // Create object of HashMap Class
-        Map<String, Object> prefs = new HashMap<String, Object>();
-
-        // Set the notification setting it will override the default setting
-        prefs.put("profile.default_content_setting_values.notifications", 2);
-
-        // Set the password saver setting it will override the default setting
-        prefs.put("credentials_enable_service", false);
-        prefs.put("profile.password_manager_enabled", false);
-
-        // Create object of ChromeOption class
-        ChromeOptions options = new ChromeOptions();
-
-        // Set the experimental option
-        options.setExperimentalOption("prefs", prefs);
-
-        // Add "options" to new ChromeDriver
-        driver = new ChromeDriver(options);
     }
 
     @Test
@@ -112,7 +97,7 @@ public class fbTest {
         FileUtils.copyFile(scrFile4, new File("/Users/erica.hagle/automation-homework/screenshots/facebook_login.png"));
     }
 
-    @AfterTest
+    @AfterClass
     public static void quitDriver() {
         if(driver!=null) {
             System.out.println("Closing Chrome browser");
@@ -121,3 +106,4 @@ public class fbTest {
     }
 
 }
+
