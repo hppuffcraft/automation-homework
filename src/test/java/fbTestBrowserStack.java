@@ -52,7 +52,7 @@ public class fbTestBrowserStack {
         driver.manage().window().maximize();
 
         //Navigate
-        driver.get(url);
+        driver.get("https://www.facebook.com");
 
         //Sync
         WebDriverWait wait = new WebDriverWait(driver, 20);
