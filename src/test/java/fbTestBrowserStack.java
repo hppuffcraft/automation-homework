@@ -13,6 +13,7 @@ import org.testng.annotations.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+import java.net.URL;
 
 /**
  * Created by erica.hagle on 8/1/17.
@@ -28,9 +29,9 @@ import java.util.concurrent.TimeUnit;
 // 4. Sync add some wait time for loading
 
 public class fbTestBrowserStack {
-    public static final String USERNAME = "eehakqa@gmail.com";
-    public static final String ACCESS_KEY = "Sv0ozekh#bzA";
-    public static final String URL = "http://" + "username" + ":" + "API KEY" + "@hub.browserstack.com/wd/hub";
+    public static final String USERNAME = "erica.hagle@akqa.com";
+    public static final String ACCESS_KEY = "4sjaxUQ1W";
+    public static final String URL = "http://" + "erica15" + ":" + "jqjPmMFHG2McxZwPLZVr" + "@hub.browserstack.com/wd/hub";
 
     private WebDriver driver;
 
@@ -52,7 +53,7 @@ public class fbTestBrowserStack {
         driver.manage().window().maximize();
 
         //Navigate
-        driver.get(url);
+        driver.get("https://www.facebook.com");
 
         //Sync
         WebDriverWait wait = new WebDriverWait(driver, 20);
@@ -98,11 +99,9 @@ public class fbTestBrowserStack {
     }
 
     @AfterClass
-    public static void quitDriver() {
-        if(driver!=null) {
-            System.out.println("Closing Chrome browser");
-            driver.quit();
-        }
+    public void tearDown() throws Exception {
+        driver.close();
+        driver.quit();
     }
 
 }

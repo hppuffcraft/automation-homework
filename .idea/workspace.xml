@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11681d2-69dc-4db3-a7d5-171d3863188c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/jahnviBrowserStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/facebook_email.png" afterPath="$PROJECT_DIR$/screenshots/facebook_email.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/facebook_launch.png" afterPath="$PROJECT_DIR$/screenshots/facebook_launch.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/facebook_password.png" afterPath="$PROJECT_DIR$/screenshots/facebook_password.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java" afterPath="$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java" />
     </list>
@@ -29,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="585">
-                <caret line="35" column="115" lean-forward="false" selection-start-line="35" selection-start-column="115" selection-end-line="35" selection-end-column="115" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,24 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fbTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/fbTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1574#1590#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fbTestBrowserStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="1076">
+              <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/test/homework/fbTest.class" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/fbTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jahnviBrowserStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
@@ -108,7 +101,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1919" />
     <option name="y" value="-400" />
-    <option name="width" value="1513" />
+    <option name="width" value="1725" />
     <option name="height" value="1002" />
   </component>
   <component name="ProjectView">
@@ -464,14 +457,43 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <configuration name="jahnviBrowserStack" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="automation-homework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="jahnviBrowserStack" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="TestNG.fbTest" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.fbTestBrowserStack" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.jahnviBrowserStack" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="TestNG.fbTestBrowserStack" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.fbTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.jahnviBrowserStack" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.fbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -492,12 +514,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="fbTest - 2017.03.31 at 14h 37m 20s.xml">
-      <configuration name="fbTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="fbTest - 2017.03.31 at 14h 49m 01s.xml">
-      <configuration name="fbTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="fbTest - 2017.03.31 at 14h 50m 42s.xml">
       <configuration name="fbTest" configurationId="TestNG" />
     </history-entry>
@@ -522,9 +538,15 @@
     <history-entry file="fbTest - 2017.08.01 at 11h 31m 36s.xml">
       <configuration name="fbTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="fbTestBrowserStack - 2017.08.01 at 17h 53m 00s.xml">
+      <configuration name="fbTestBrowserStack" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="jahnviBrowserStack - 2017.08.01 at 17h 51m 32s.xml">
+      <configuration name="jahnviBrowserStack" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1919" y="-400" width="1513" height="1002" extended-state="0" />
+    <frame x="-1919" y="-400" width="1725" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -540,7 +562,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12756114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11188406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -569,24 +591,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="405">
-            <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fbTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -615,8 +626,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -645,8 +656,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -675,8 +686,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -697,8 +708,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -719,8 +730,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -741,8 +752,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,8 +763,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -774,8 +785,8 @@
         <state relative-caret-position="240">
           <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,8 +807,8 @@
         <state relative-caret-position="240">
           <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,19 +928,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fbTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="-527">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1574#1590#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jahnviBrowserStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1574#1590#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="1076">
+          <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -939,8 +960,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="585">
-            <caret line="35" column="115" lean-forward="false" selection-start-line="35" selection-start-column="115" selection-end-line="35" selection-end-column="115" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />
