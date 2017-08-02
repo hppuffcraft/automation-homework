@@ -19,43 +19,43 @@ This README will lay out the steps to create a Selenium project in IntelliJ and 
     * Open Terminal.
     * Change the current working directory to your local project.
     * Initialize the local directory as a Git repository.
-      * ######$ git init
+      * ###### $ git init
     * Add the files in your new local repository. This stages them for the first commit.
-      * ######$ git add .
+      * ###### $ git add .
         * *Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.*
     * Commit the files that you've staged in your local repository.
-        * ######$ git commit -a -m "First commit"
+        * ###### $ git commit -a -m "First commit"
             * *Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.*
     * In Terminal, add the URL for the remote repository where your local repository will be pushed.
-        * ######$ git remote add origin *[remote repository URL]*
+        * ###### $ git remote add origin *[remote repository URL]*
             * *Sets the new remote*
-        * ######$ git remote -v
+        * ###### $ git remote -v
             * *Verifies the new remote URL*
     * Push the changes in your local repository to GitHub.
-        * ######$ git push -u origin master
+        * ###### $ git push -u origin master
             * *Pushes the changes in your local repository up to the remote repository you specified as the origin*
 
 
-##Branches:
+## Branches:
 * master
 * homework/erica      
 
 
 ## Useful Terminal Commands:
-* ######$ git checkout master
+* ###### $ git checkout master
     * *changes branch to master*
-* ######$ git checkout -b [name_of_your_new_branch]
+* ###### $ git checkout -b [name_of_your_new_branch]
     * *creates and switches to new branch*
-* ######$ git checkout [name_of_your_branch]
+* ###### $ git checkout [name_of_your_branch]
     * *changes to your branch*
-* ######$ git pull
+* ###### $ git pull
     * *pulls from current branch*
-* ######$ git push
+* ###### $ git push
     * *pushes to current branch*
-* ######$ git add .
+* ###### $ git add .
     * *stages all files for commit*
-* ######$ git commit -a -m "your comment goes here"
+* ###### $ git commit -a -m "your comment goes here"
     * *commits changes with a comment*
-* ######$ git merge master
+* ###### $ git merge master
     * *merges pulled code from master to current branch*
 

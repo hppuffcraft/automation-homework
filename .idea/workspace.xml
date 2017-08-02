@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11681d2-69dc-4db3-a7d5-171d3863188c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/jahnviBrowserStack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/facebook_email.png" afterPath="$PROJECT_DIR$/screenshots/facebook_email.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/facebook_launch.png" afterPath="$PROJECT_DIR$/screenshots/facebook_launch.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/facebook_password.png" afterPath="$PROJECT_DIR$/screenshots/facebook_password.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java" afterPath="$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <first_editor relative-caret-position="930">
+                <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -47,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1076">
-              <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+              <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -950,7 +944,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/fbTestBrowserStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1076">
-          <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+          <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -960,8 +954,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <first_editor relative-caret-position="930">
+            <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />
