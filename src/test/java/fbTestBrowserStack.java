@@ -7,6 +7,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -48,7 +49,7 @@ public class fbTestBrowserStack {
 
     }
 
-    @Test
+    @Test (priority = 1)
     public void fbLogin() throws IOException {
         driver.manage().window().maximize();
 
@@ -96,6 +97,29 @@ public class fbTestBrowserStack {
         //Screenshot
         File scrFile4 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile4, new File("/Users/erica.hagle/automation-homework/screenshots/facebook_login.png"));
+    }
+
+    @Test (priority = 2)
+    public void fbLogOut() throws IOException {
+
+        //Open navigation drop down menu
+        WebElement lstitem = driver.findElement(By.id("userNavigationLabel"));
+        lstitem.click();
+
+        //Implicit wait
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        //Select log out option
+        driver.findElement(By.partialLinkText("Log Out")).click();
+        System.out.println("Logged out");
+
+        //Implicit wait
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        //Screenshot
+        File scrFile5 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile5, new File("/Users/erica.hagle/automation-homework/screenshots/facebook_logout.png"));
+
     }
 
     @AfterClass
